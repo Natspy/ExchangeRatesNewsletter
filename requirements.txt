@@ -1,0 +1,6 @@
+flask==3.0.3
+numpy==1.26.4
+requests==2.32.2
+confluent-kafka==2.4.0
+Flask-APScheduler==1.13.1
+pyspark==3.5.1

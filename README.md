@@ -15,3 +15,10 @@ The Exchange Rates Newsletter is an automated service that sends subscribers dai
 - Premium subscription plans with additional features.
 
 By implementing the Exchange Rates Newsletter, users will receive timely and valuable information to make better financial decisions in the dynamic currency exchange market.
+
+## After first docker-compose build create two topics
+- kafka-topics --create --bootstrap-server localhost:29092 --partitions 1 --replication-factor 1 --topic currency-rates
+- kafka-topics --create --bootstrap-server localhost:29092 --partitions 1 --replication-factor 1 --topic bitcoin-rates
+
+## Check topics list 
+- kafka-topics --list --bootstrap-server localhost:29092
