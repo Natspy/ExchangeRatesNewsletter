@@ -1,6 +1,6 @@
 import smtplib
 from datetime import datetime
-from config import *
+from trash.config import *
 from email.mime.text import MIMEText
 
 subject = "Exchange rates - Newsletter"

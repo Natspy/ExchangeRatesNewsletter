@@ -1,6 +1,5 @@
 from flask import Flask, jsonify
 from threading import Thread
-from currency_bitcoin_consumer import run_consumer
 from consumer_print import print_currency
 
 app = Flask(__name__)
